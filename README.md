@@ -1,2 +1,2 @@
 # C-lculo-num-rico
-Repositório que possui os códigos dos 5 métodos de iteração da unidade1
+Este repositório ossui os métodos da bissecção,falsa posição, ponto fixo,newton e secante
