@@ -1,15 +1,15 @@
 import java.util.function.DoubleUnaryOperator;
 public class SomaTrapezio {
     public static void main(String[] args) {
-        double a = 1;
-        double b = 2;
-        int part = 4;
+        double a = 0;
+        double b = 3;
+        int part = 6;
         double delta = (b - a) / part;
         double soma = 0;
-        DoubleUnaryOperator f = x -> Math.pow(x, 2);
+        DoubleUnaryOperator f = x -> 1 / (1 + x);
         
         double somaIncial = (f.applyAsDouble(a) + f.applyAsDouble(b));
-        for (int i = 1; i < part; i++) {
+        for (int i = 1; i <part ; i++) {
             double xi = a + i * delta;
             xi = f.applyAsDouble(xi);
             soma += 2 * xi;

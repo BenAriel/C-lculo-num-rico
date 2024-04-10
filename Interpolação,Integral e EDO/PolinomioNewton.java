@@ -11,8 +11,7 @@ public class PolinomioNewton {
             Fx[i] = f.applyAsDouble(x[i]);
             System.out.println(Fx[i]);
         }
-
-
+        
         double[] coeficientes = calcularCoeficientesNewton(x, Fx);
 
         System.out.println("\nA fórmula de interpolação de Newton é:");

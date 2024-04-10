@@ -1,12 +1,12 @@
 import java.util.function.DoubleUnaryOperator;
 public class SomaUmTerco {
     public static void main(String[] args) {
-        double a = 1;
-        double b = 2;
-        int part = 1000;
+        double a = 0;
+        double b = 3;
+        int part = 6;
         double delta = (b - a) / part;
         double soma = 0;
-        DoubleUnaryOperator f = x -> Math.pow(x, 2);
+        DoubleUnaryOperator f = x -> 1 / (1 + x);
 
         double somaIncial = (f.applyAsDouble(a) + f.applyAsDouble(b));
 
