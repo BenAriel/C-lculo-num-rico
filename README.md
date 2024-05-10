@@ -1,2 +1,2 @@
 # Calculo-numerico
-Este repositório possui os métodos da bissecção,falsa posição, ponto fixo,newton e secante
+Repositório que possui todos os códigos necessários para as unidades 1,2 e 3 da disciplina de cálculo numérico
